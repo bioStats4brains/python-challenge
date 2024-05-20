@@ -28,7 +28,8 @@ print("The net profit/losses is ", net_profit, ".")
 #The greatest increase/decrease in profits happened on __ and for __ much. 
 #max_date = budget_df['Profit/Losses'].idxmax()
 max_date = budget_df.loc[budget_df["Profit/Losses"].idxmax(), 'Date']
-print("The date with the maximum profit gained is ", max_date)
+max_profit = budget_df.loc[budget_df["Profit/Losses"].idxmax(), 'Profit/Losses']
+print("The greatest increase in profits happened on: ", max_date, " (", max_profit, ").")
 
 
 #print("The greatest increase in profits happened on: ", max_date)

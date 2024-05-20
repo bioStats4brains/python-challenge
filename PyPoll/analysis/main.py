@@ -14,7 +14,7 @@ print(election_df.head())
 # Output the total number of votes cast.
 num_votes = len(pd.unique(election_df["Ballot ID"]))
 
-f = open("output_pypoll_print.txt", "a")
+f = open("PyPoll/output_pypoll_print.txt", "a")
 print("The total number of votes cast is :", num_votes, file=f)
 
 #Determine the percentage and number of votes for Charles. 

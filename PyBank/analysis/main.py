@@ -16,7 +16,7 @@ print(budget_df.head())
 #The total number of months included in the dataset.
 num_months = len(pd.unique(budget_df["Date"]))
 
-f = open("output_pybank_print.txt", "a")
+f = open("PyBank/output_pybank_print.txt", "a")
 print("The total number of months is :", num_months, file=f)
 
 #The net amount of profit/losses. 

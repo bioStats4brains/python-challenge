@@ -33,8 +33,8 @@ per_Raymon = round(num_Raymon/num_votes*100, 3)
 print("Raymon Anthony Doane: %", per_Raymon, "% (", num_Raymon, ")")#, file=f)
 
 #Determine the winner based on max num.
-list_winnings = election_df["Candidate"].value_counts()
-print(list_winnings)
+#list_winnings = election_df["Candidate"].value_counts()
+#print(list_winnings)
 
 #print(list_winnings[max(list_winnings)])
 #f.close()

@@ -1,0 +1,4 @@
+The total number of months is : 86
+The net profit/losses is $ 22564198 .
+The greatest increase in profits happened on:  Mar-13  ($ 1141840 ).
+The greatest decrease in profits happened on:  Dec-10  ($ -1194133 ).
